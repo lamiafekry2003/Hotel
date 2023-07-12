@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* first section */
+/* start header */
+/* icon star */
+/* nav{
+    padding: 8px;
+    background-color: #fff;
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+    z-index: 999999999;
+
+} */
+.search{
+    position: relative;
+}
+.search .icon{
+    position: absolute;
+    margin: 12px 20px;
+    color: #ab7d65;
+   
+    
+}
+/* end icon star */
+.header{
+    background-image: url("../imges/dragon-palace-hotel-4534092_1280.jpg"),linear-gradient(to right,#d09a76,#715549);
+    background-size: cover;
+    height: 800px;
+   
+}
+.header .text{
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+}
+.line {
+    position: relative;
+    left: 9%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.line input{
+    margin: -3px;
+    padding: 15px 30px;
+    border: none;
+    position:relative;  
+}
+
+
+/* icons */
+.iconss{
+    display: flex;
+    position: relative;
+    left: 24%; 
+    flex-wrap: wrap; 
+}
+.iconss p{
+    margin-left: 20px;
+    color: white;
+}
+.iconss .icono{
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    color:#ab7d65;
+}
+.iconss .icono:hover{
+    background-color: #8d99af;
+    color: white;
+
+}
+/* end icons */
+/* seerch */
+ .seerch {
+    display: inline;
+    position: relative;
+    
+} 
+.seerch .icc{
+    position: absolute;
+    margin-top: 15px ;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+    z-index: 5555;  
+}
+
+.seerch input.sar{
+    background-color: #8d99af; 
+    
+}
+.seerch input::placeholder{
+    color: white;
+} */
+/* end sserch */
+
+/* end header */
+/*  end first section */
+/* start secont section */
+.second .boody img{
+    width: 400px;
+    height: 300px;
+    
+}
+.second .boody.card-header{
+    background-color: rgb(141, 153, 175)
+}
+
+/* end secont section */
+/* start third section */
+
+/* catalog */
+.catolog img{
+    width: 450px ;
+    height: 400px;
+    
+}
+.catolog{
+    display: flex;
+    background-color: #f7f7f7;
+    border-radius: 14px;
+    flex-wrap: wrap;
+}
+.catolog .contact{
+    position: relative;
+} 
+.catolog .contact .phon{
+    position: absolute;
+    color: #e7eaee;
+    background-color: #8c91a4;
+    border-radius: 50%;
+    padding: 5px;
+    top: 20px;
+    left: 16px;
+} 
+.catolog button{
+    border: none;
+    padding: 20px 50px;
+    background-color: white;
+    border-radius: 15px;
+    
+   
+}
+/* @media(max-width:992px) {
+    .catolog img{
+       width:100%
+    }
+} */
+/* points */
+.points{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.points button{
+    background-color: #8c91a4;
+    border: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.points button.action{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+
+
+
+/* end third section */
+
+
+#headingThree {
+    background-color: rgb(138, 147, 165);
+}
+
+.content .text h6{
+    line-height: 30px;
+    width: 400px;
+    text-align: center;
+    margin-left: 17%;
+}
+.content .listt ul li{
+    list-style-type: none;
+}
+.content .listt h3{
+    color: #8c91a4;
+    letter-spacing: 2px;
+}
+.content .listt li a{
+    color: rgb(23, 23, 23);
+    
+}
+.content .listt li a:hover{
+    color: #8c91a4;
+}

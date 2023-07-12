@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font aseam -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- css file -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hotel</title>
+</head>
+<body>
+  <!-- start first section -->
+  <!-- start header -->
+  <div class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-light mt-4 nav">
+            <a class="navbar-brand mr-5 ml-5 " href="#"><img src="imges/black-logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-muted text-light" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ml-4">
+                  <a class="nav-link text-light " href="#">CATECORY</a>
+                </li>
+                <li class="nav-item ml-4">
+                  <a class="nav-link text-light" href="#">LISTING</a>
+                </li>
+                <li class="nav-item ml-4">
+                  <a class="nav-link text-light" href="#">CONTACTUS</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <div class="search">
+                  <i class="fa-solid fa-star icon"></i>
+                  <input class="form-control mr-sm-2 ml-3 pl-4" type="search" placeholder="Add Your Listing" aria-label="Search">
+                </div>
+              </form>
+            </div>
+          </nav>
+          <hr style="background-color: white;">
+          <div class="text">
+            <p>OVER 36,500+ACTIVE LISTING</p>
+            <h1>Find Nearby Places & Things</h1>
+          </div>
+          <!-- forms -->
+          <div class="line mt-5">
+            <form action="#" method="post" style="display: inline-block;">
+              <input list="areas" name="areas" placeholder="All Areas" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
+              <datalist id="areas">
+                <option value="area1"></option>
+                <option value="area2"></option>
+                <option value="area3"></option>
+              </datalist>
+              <input type="text" placeholder="Enter Your Location" name="location" class="" > 
+              <input list="price" name="price" placeholder="Price Range">
+              <datalist id="price">
+                <option value="1000-2000"></option>
+                <option value="2000-2500"></option>
+                <option value="3000-4000"></option>
+              </datalist>
+              <div class="seerch">
+               <i class="fa-solid fa-magnifying-glass icc "></i>
+               <input type="search" placeholder="Search" class="sar " style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+              </div>
+              </div>               
+            </form>
+          </div> 
+          <!-- end forms -->
+          <!-- start icons -->
+          <div class="iconss mt-5">
+            <div>
+              <i class="fa-solid fa-house icono"></i>
+              <p>Apertments</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-burger icono"></i>
+              <p>Food&Drinks</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-car icono"></i>
+              <p> Rets Cars</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-bag-shopping icono"></i>
+              <p>Shopping</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-plane icono"></i>
+              <p>Traveling</p>
+            </div>
+          </div>
+          <!-- end icons -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end header -->
+  <!-- end first section -->
+  <!-- start second section -->
+  <div class="second">
+    <div class="container">
+      <div class="row">
+        <class class="col-md-12">
+          <div class="heading text-center mt-5">
+            <h1>Popular Categories</h1>
+            <p class="text-muted mt-4">CHECK THEM OUT</p>
+          </div>
+          <div class="boody">
+            <div class="accordion mt-5" id="accordionExample">
+              <div class="card">
+                <div class="card-header border-0" id="headingOne" style="background-color: rgb(138, 147, 165)">
+                  <h2 class="mb-0 border-0" style="position: relative;">
+                    <i class="fa-solid fa-house" style="color:white"></i>
+                    <button class="btn btn-lg  text-left text-light" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                      Apertment
+                    </button>
+                  </h2>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body d-flex justify-content-between flex-wrap " style="background-color: #2d2b41;">
+                    <div class="text">
+                      <h3 class="text-light mt-5 mb-3">One Of The Most Trending Stuffs Right Now!</h3>
+                      <p style="width: 400px;line-height: 30px; font-size: 15px; " class="mt-3 text-light text-center ml-3">Plot Listing is a responsive Bootstrap 5 website template that included 4 different HTML pages. This template is provided by TemplateMo website.</p>
+                      <div class="butto text-center" style="position: relative;">
+                        <i class="fa-solid fa-eye" style="position: absolute;
+                        color: #e7eaee;
+                        background-color: #8c91a4;
+                        border-radius: 50%;padding: 5px;top: 15px;left: 34%;"></i>
+                        <button style="border: none;
+                        padding: 15px 50px;
+                        background-color: white;
+                        border-radius: 15px;">Explore More</button>
+                      </div>
+                    </div>
+                    <img src="imges/tabs-image-01 (1).jpg" style="width: 400px;
+                    height: 400px; border-radius: 10px;" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header border-0" id="headingTwo"style="background-color: rgb(138, 147, 165)">
+                  <h2 class="mb-0 border-0" style="position: relative;">
+                    <i class="fa-solid fa-burger" style="color:white"></i>
+                    <button class="btn btn-lg  text-left text-light collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Food & Life
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body d-flex justify-content-between flex-wrap " style="background-color: #2d2b41;">
+                    <div class="text">
+                      <h3 class="text-light mt-5 mb-3">Food and Lifestyle category is here!</h3>
+                      <p style="width: 400px;line-height: 30px; font-size: 15px; " class="mt-3 text-light text-center ml-3">You can feel free to download, edit and apply this template for your website. Please tell your friends about TemplateMo website.</p>
+                      <div class="butto text-center" style="position: relative;">
+                        <i class="fa-solid fa-eye" style="position: absolute;
+                        color: #e7eaee;
+                        background-color: #8c91a4;
+                        border-radius: 50%;padding: 5px;top: 15px;left: 30%;"></i>
+                        <button style="border: none;
+                        padding: 15px 50px;
+                        background-color: white;
+                        border-radius: 15px;">Explore More</button>
+                      </div>
+                    </div>
+                    <img src="imges/tabs-image-02.jpg" style="width: 400px;
+                    height: 400px; border-radius: 10px;" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0 border-0" style="position: relative;">
+                    <i class="fa-solid fa-car icono" style="color:white"></i>
+                    <button class="btn btn-lg  text-left text-light collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Cars
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body d-flex justify-content-between flex-wrap " style="background-color: #2d2b41;">
+                    <div class="text">
+                      <h3 class="text-light mt-5 mb-3">Best car rentals for your trips!</h3>
+                      <p style="width: 400px;line-height: 30px; font-size: 15px; " class="mt-3 text-light text-center ml-3">Did you know? You can get the best free HTML templates on Too CSS blog. Visit the blog pages and explore fresh and latest website templates.</p>
+                      <div class="butto text-center" style="position: relative;">
+                        <i class="fa-solid fa-eye" style="position: absolute;
+                        color: #e7eaee;
+                        background-color: #8c91a4;
+                        border-radius: 50%;padding: 5px;top: 15px;left: 30%;"></i>
+                        <button style="border: none;
+                        padding: 15px 50px;
+                        background-color: white;
+                        border-radius: 15px;">More Lising</button>
+                      </div>
+                    </div>
+                    <img src="imges/tabs-image-03.jpg" style="width: 400px;
+                    height: 400px; border-radius: 10px;" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end second section -->
+  <!-- start third section -->
+  <div class="list">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text mt-5 text-center" >
+            <h1>Recent Listing</h1>
+            <p class="mt-4 text-muted">CHECK-THEM OUT</p>
+          </div>
+          <!-- start list catalog -->
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="catolog mt-5">
+                  <img src="imges/listing-01.jpg" alt="" style="width: 450px ;height: 400px;">
+                  <div class="disc ml-5 mt-5">
+                    <h4>1-First Apertment Unite</h4>
+                    <p>by:Sale Agent</p>
+                    <i class="fa-solid fa-earth-americas mr-2 pt-2" style="color: #ebeef0; background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">$450-$950/month with taxes</p>
+                    <p class="mb-4"><p style=" color: #8c91a4; display: inline;">Detils:</p>2760 sq it</p>
+                    <i class="fa-solid fa-bed" style="color: #e7eaee;  background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">4 Badroom</p>
+                    <i class="fa-solid fa-bath" style="color: #e8eaed;background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">4 Bathroom</p>
+                  </div>
+                  <div class="score ml-5 mt-5 ">
+                     <div class="star">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <p style="display: inline;">(18) Reviews</p>
+                     </div>
+                   
+                   <div class="contact ml-5 mt-5">
+                      <i class="fa-solid fa-phone phon mr-3"></i>
+                      <button>Contact Now</button>
+                    </div>
+                  </div>
+                </div>
+                
+               
+               <!-- second img -->
+               <div class="catolog mt-5">
+                 <img src="imges/listing-02.jpg" alt="" style="width: 450px ;height: 400px;">
+                  <div class="disc ml-5 mt-5">
+                    <h4>2-House For Gaming</h4>
+                    <p>by:Sale Agent</p>
+                    <i class="fa-solid fa-earth-americas mr-2 pt-2" style="color: #ebeef0; background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">$1,400-$3,500/month with twes</p>
+                    <p class="mb-4"><p style=" color: #8c91a4; display: inline;">Detils:</p>3650 sq it</p>
+                    <i class="fa-solid fa-bed" style="color: #e7eaee;  background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">4 Badroom</p>
+                    <i class="fa-solid fa-bath" style="color: #e8eaed;background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">3 Bathroom</p>
+                  </div>
+                  <div class="score ml-5 mt-5 ">
+                    <div class="star">
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <p style="display: inline;">(32) Reviews</p>
+                    </div>
+                    <div class="contact ml-5 mt-5">
+                      <i class="fa-solid fa-phone phon mr-3"></i>
+                      <button>Contact Now</button>
+                    </div>
+                  </div>
+                </div>
+
+               <!-- end second img -->
+               <div class="catolog mt-5">
+                <img src="imges/listing-03.jpg" alt="" style="width: 450px ;height: 400px;">
+                <div class="disc ml-5 mt-5">
+                  <h4>3-Amazing pool </h4>
+                  <p>by:Sale Agent</p>
+                  <i class="fa-solid fa-earth-americas mr-2 pt-2" style="color: #ebeef0; background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                  <p style="display: inline;">$3,850/month with twes</p>
+                  <p class="mb-4"><p style=" color: #8c91a4; display: inline;">Detils:</p>3660 sq it</p>
+                  <i class="fa-solid fa-bed" style="color: #e7eaee;  background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                  <p style="display: inline;">4 Badroom</p>
+                  <i class="fa-solid fa-bath" style="color: #e8eaed;background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                  <p style="display: inline;">3 Bathroom</p>
+                </div>
+                <div class="score ml-5 mt-5 ">
+                  <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <p style="display: inline;">(40) Reviews</p>
+                  </div>
+                  <div class="contact ml-5 mt-5">
+                    <i class="fa-solid fa-phone phon mr-3"></i>
+                    <button>Contact Now</button>
+                  </div>
+                </div>
+              </div>  
+               <!-- end third img -->
+               
+              </div>
+              <div class="carousel-item">
+                <div class="catolog mt-5">
+                  <img src="imges/listing-04.jpg" alt="" style="width: 450px ;height: 400px;">
+                  <div class="disc ml-5 mt-5">
+                    <h4>4-Sunshine Apertment</h4>
+                    <p>by:Sale Agent</p>
+                    <i class="fa-solid fa-earth-americas mr-2 pt-2" style="color: #ebeef0; background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">$3,600/month with twes</p>
+                    <p class="mb-4"><p style=" color: #8c91a4; display: inline;">Detils:</p>1460 sq it</p>
+                    <i class="fa-solid fa-bed" style="color: #e7eaee;  background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">5 Badroom</p>
+                    <i class="fa-solid fa-bath" style="color: #e8eaed;background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">2 Bathroom</p>
+                  </div>
+                  <div class="score ml-5 mt-5 ">
+                     <div class="star">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <p style="display: inline;">(18) Reviews</p>
+                     </div>
+                   
+                   <div class="contact ml-5 mt-5">
+                      <i class="fa-solid fa-phone phon mr-3"></i>
+                      <button>Contact Now</button>
+                    </div>
+                  </div>
+                </div>
+                
+               
+               <!-- second img -->
+               <div class="catolog mt-5">
+                 <img src="imges/listing-05.jpg" alt="" style="width: 450px ;height: 400px;">
+                  <div class="disc ml-5 mt-5">
+                    <h4>5-Best House Of Twon</h4>
+                    <p>by:Sale Agent</p>
+                    <i class="fa-solid fa-earth-americas mr-2 pt-2" style="color: #ebeef0; background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">$4,500/month with twes</p>
+                    <p class="mb-4"><p style=" color: #8c91a4; display: inline;">Detils:</p>3550 sq it</p>
+                    <i class="fa-solid fa-bed" style="color: #e7eaee;  background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">4 Badroom</p>
+                    <i class="fa-solid fa-bath" style="color: #e8eaed;background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">3 Bathroom</p>
+                  </div>
+                  <div class="score ml-5 mt-5 ">
+                    <div class="star">
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <p style="display: inline;">(40) Reviews</p>
+                    </div>
+                    <div class="contact ml-5 mt-5">
+                      <i class="fa-solid fa-phone phon mr-3"></i>
+                      <button>Contact Now</button>
+                    </div>
+                  </div>
+                </div>
+
+               <!-- end second img -->
+               <div class="catolog mt-5">
+                <img src="imges/listing-06.jpg" alt="" style="width: 450px ;height: 400px;">
+                <div class="disc ml-5 mt-5">
+                  <h4>6- Relaxing BBQ </h4>
+                  <p>by:Sale Agent</p>
+                  <i class="fa-solid fa-earth-americas mr-2 pt-2" style="color: #ebeef0; background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                  <p style="display: inline;">$3,650/month with twes</p>
+                  <p class="mb-4"><p style=" color: #8c91a4; display: inline;">Detils:</p>2660 sq it</p>
+                  <i class="fa-solid fa-bed" style="color: #e7eaee;  background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                  <p style="display: inline;">3 Badroom</p>
+                  <i class="fa-solid fa-bath" style="color: #e8eaed;background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                  <p style="display: inline;">2 Bathroom</p>
+                </div>
+                <div class="score ml-5 mt-5 ">
+                  <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <p style="display: inline;">(40) Reviews</p>
+                  </div>
+                  <div class="contact ml-5 mt-5">
+                    <i class="fa-solid fa-phone phon mr-3"></i>
+                    <button>Contact Now</button>
+                  </div>
+                </div>
+              </div>  
+              </div>
+              <div class="carousel-item">
+                <div class="catolog mt-5">
+                  <img src="imges/gettyimages-1207347586-612x612.jpg" alt="" style="width: 450px ;height: 400px;">
+                  <div class="disc ml-5 mt-5">
+                    <h4>7-SunnyApertment</h4>
+                    <p>by:Sale Agent</p>
+                    <i class="fa-solid fa-earth-americas mr-2 pt-2" style="color: #ebeef0; background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">$9500/month with taxes</p>
+                    <p class="mb-4"><p style=" color: #8c91a4; display: inline;">Detils:</p>2880 sq it</p>
+                    <i class="fa-solid fa-bed" style="color: #e7eaee;  background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">6 Badroom</p>
+                    <i class="fa-solid fa-bath" style="color: #e8eaed;background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">3 Bathroom</p>
+                  </div>
+                  <div class="score ml-5 mt-5 ">
+                     <div class="star">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <p style="display: inline;">(50) Reviews</p>
+                     </div>
+                   
+                   <div class="contact ml-5 mt-5">
+                      <i class="fa-solid fa-phone phon mr-3"></i>
+                      <button>Contact Now</button>
+                    </div>
+                  </div>
+                </div>
+                
+               
+               <!-- second img -->
+               <div class="catolog mt-5">
+                 <img src="imges/photo-1616588589676-62b3bd4ff6d2.jpg" alt="" style="width: 450px ;height: 400px;">
+                  <div class="disc ml-5 mt-5">
+                    <h4>8-Onother House Gaming</h4>
+                    <p>by:Sale Agent</p>
+                    <i class="fa-solid fa-earth-americas mr-2 pt-2" style="color: #ebeef0; background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">$6,500/month with twes</p>
+                    <p class="mb-4"><p style=" color: #8c91a4; display: inline;">Detils:</p>3660 sq it</p>
+                    <i class="fa-solid fa-bed" style="color: #e7eaee;  background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">4 Badroom</p>
+                    <i class="fa-solid fa-bath" style="color: #e8eaed;background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                    <p style="display: inline;">2 Bathroom</p>
+                  </div>
+                  <div class="score ml-5 mt-5 ">
+                    <div class="star">
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <p style="display: inline;">(32) Reviews</p>
+                    </div>
+                    <div class="contact ml-5 mt-5">
+                      <i class="fa-solid fa-phone phon mr-3"></i>
+                      <button>Contact Now</button>
+                    </div>
+                  </div>
+                </div>
+
+               <!-- end second img -->
+               <div class="catolog mt-5">
+                <img src="imges/9.webp" alt="" style="width: 450px ;height: 400px;">
+                <div class="disc ml-5 mt-5">
+                  <h4>9-Secret Places </h4>
+                  <p>by:Sale Agent</p>
+                  <i class="fa-solid fa-earth-americas mr-2 pt-2" style="color: #ebeef0; background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                  <p style="display: inline;">$3,850/month with twes</p>
+                  <p class="mb-4"><p style=" color: #8c91a4; display: inline;">Detils:</p>3900 sq it</p>
+                  <i class="fa-solid fa-bed" style="color: #e7eaee;  background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                  <p style="display: inline;">6 Badroom</p>
+                  <i class="fa-solid fa-bath" style="color: #e8eaed;background-color: #8c91a4; border-radius: 50%; padding: 7px;"></i>
+                  <p style="display: inline;">3 Bathroom</p>
+                </div>
+                <div class="score ml-5 mt-5 ">
+                  <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <p style="display: inline;">(30) Reviews</p>
+                  </div>
+                  <div class="contact ml-5 mt-5">
+                    <i class="fa-solid fa-phone phon mr-3"></i>
+                    <button>Contact Now</button>
+                  </div>
+                </div>
+              </div>  
+              </div>
+            </div>
+           <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </button>
+          </div>     
+          <!-- end list catalog  -->
+          <!-- start points -->
+          <div class="points">
+            <button role="button">
+              <span></span>
+            </button>
+            <button role="button" class="action ">
+              <span></span>
+            </button>
+            <button role="button">
+              <span></span>
+            </button>
+          </div>
+           <!-- end points -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end third section -->
+  <hr class="mt-5">
+  <!-- start footer -->
+  <div class="content mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 mt-5  text-center text">
+                <img src="imges/black-logo.png" alt=""> 
+                <h6 class="mt-3">If you consider that Plot Listing template is useful for your website, please support us a little via PayPal.</h6>    
+            </div>
+            <div class="col-md-2 mt-5 listt">
+                <h3>Helpful Links</h3>
+                 <ul>
+                    <li class="mt-3"> <a href="#">Catogries</a></li>
+                    <li class="mt-3"> <a href="#">Reviews</a></li>
+                    <li class="mt-3"> <a href="##">Listing</a></li>
+                    <li class="mt-3"><a href="#">Contact Us</a></li>
+                 </ul>
+            </div>
+            <div class="col-md-2 listt" style="left: -60px; margin-top: 80px;">
+                 <ul>
+                  <li class="mt-3 "> <a href="#">About Us</a></li>
+                  <li class="mt-3"> <a href="#">Awards</a></li>
+                  <li class="mt-3"> <a href="##">Useful site</a></li>
+                  <li class="mt-3"><a href="#">Privacy Policy</a></li>
+                 </ul>
+            </div>
+            <div class="col-md-2 mt-5 listt" style="margin-left: -90px;">
+                <h3>Contact Us</h3>
+                 <ul>
+                  <li class="mt-3" style="width: 500px;">27th Street of New Town, Digital Villa</li>
+                  <li class="mt-3"> <a href="##" class="mr-3">010-20-30</a> <a href="#">04-033-909</a></li>
+                 </ul>
+            </div>
+        
+        </div>
+
+      </div>
+  </div>
+  <hr>
+  <!-- end footer -->
+ <div class="end">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="ml-5 text-center">
+          Copyright © 2021 Plot Listing Co., Ltd. All Rights Reserved.
+           Design: TemplateMo
+        </p>
+      </div>
+    </div>
+  </div>
+ </div>
+
+  <!-- font aseam -->
+  <script src="js/all.min.js"></script>
+  <!-- bootstrap file -->
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- js file -->
+  <script src="js/main.js"></script>
+</body>
+</html>
